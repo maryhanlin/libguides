@@ -1,0 +1,63 @@
+<h1>Committees</h1>
+    <p>As defined by <a href="../bylaws/default.htm#ApB">Appendix B of the RALC By-Laws</a>, the committees of RALC consist of:</p> 
+    <ul>
+      <li>Executive Committee
+        <ul>
+          <li><a href="http://reynolds.beta.libguides.com/RALC/ExecutiveCommittee">Contact</a></li>
+          <li><a href="http://reynolds.beta.libguides.com/RALC/BoardMinutes">Minutes</a></li>
+        </ul>
+      </li>
+      <li>Nominating Committee</li>
+      <li>Public Services Committee
+        <ul>
+          <li><a href="http://ralc.wikispot.org/Public_Services_Committee">Contacts</a></li>
+          <li><a href="http://ralc.wikispot.org/Public_Services_Committee_Minutes">Minutes</a></li>
+        </ul>
+      </li>
+      <li>Richmond Area Media Co-op Committee
+        <ul>
+          <li><a href="http://reynolds.beta.libguides.com/RALC/MediaCooperative">Contacts</a></li>
+          <li><a href="http://reynolds.beta.libguides.com/c.php?g=225888&p=1554471">Minutes</a></li>
+        </ul>
+      </li>
+      <li>Technical Services Committee
+        <ul>
+          <li><a href="http://reynolds.beta.libguides.com/RALC/TechnicalServices">Contacts</a></li>
+          <li><a href="http://reynolds.beta.libguides.com/c.php?g=225888&p=1554471">Minutes</a></li>
+          </ul>
+      </li>
+      </ul>
+	
+   	  <h2>Program Proposal</h2>
+        <ul>      
+            <li><a href="program/program_proposal.htm">Program Proposal</a>
+            <ul>
+          		<li><a href="program/program_followup.htm"> Program Follow-Up Report</a></li>
+          		<li><a href="program/Participant Evaluation Form.pdf">Participant Evaluation Form for RALC Program</a> <img src="../images/pdf.png" alt="PDF" width="16" height="16" style="vertical-align: middle" /></li>
+          	</ul>
+   		  </li>
+		</ul>
+    <h1>Duties of RALC Committee Chairs </h1>
+    <ol>
+    	<li>Contact all committee members for correct email and phone numbers.  Update <a href="http://ralc.wikispot.org">the RALC 
+        Wiki</a> with any new information.</li>
+       	<li>Attend RALC Board Meetings held in January, April and October each year.  Take notes to present to your committee and 
+        give a report to Directors of your committee’s activities.</li>
+     	<li>Plan meetings:
+         	<ol>
+            	<li>Send announcements of meetings via email and also through Courier Service in print.  
+                (If Directors receive a written meeting announcement at their Board meeting, more people attend.)</li>
+         		<li>Minutes of your meetings should be approved by members (email is fine) and posted on the 
+                <a href="http://ralc.wikispot.org">the RALC Wiki</a></li>
+                <li>At the end of each meeting's agenda, it’s good to have sharing and question time.  Everyone learns from this.</li>
+                <li>Review your committee's mission and revise as necessary.</li>
+          </ol></li>
+        <li>Through your committee, decide what program to sponsor.  RALC encourages one per committee per year.</li>
+       	<li>Complete a Program Proposal and send to Paul Porterfield.  This form is on-line at the RALC Web page and easy to complete.</li>
+       	<li>Send announcements to all committee members and Library Directors in plenty of time for planning.</li>
+       	<li>Print the Program Evaluation Forms and have all participants complete these.  Turn in to Paul Porterfield.</li>
+      	<li>After the program, complete the RALC Follow-up Program Report and present at the next Director’s Meeting. </li>
+     </ol>
+    <!-- InstanceEndEditable -->
+    	</div><!-- closes col_wrapper -->
+   	</div><!-- closes content -->
