@@ -1,0 +1,334 @@
+<!doctype html>
+
+    <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>CSS Only Navigation Menu</title>
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+    <style>
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+}
+/*Create a horizontal list with spacing*/
+nav li {
+	display: inline-block;
+	float: left;
+	margin-right: 1px;
+}
+/*Style for menu links*/
+nav li a {
+	display: block;
+	min-width: 120px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	background: #a32638;
+	text-decoration: none;
+	;
+}
+label {
+	font-family: 'Open Sans', sans-serif;
+	margin: none;
+}
+nav li ul li a {
+	text-align: left;
+	font-size: .8em;
+	padding-left: 10px;
+}
+nav li ul li a:hover {
+	text-decoration: underline;
+}
+/*Hover state for top level links*/
+nav li:hover a {
+	background: whitesmoke;
+	color: black;
+}
+/*Style for dropdown links*/
+nav li:hover ul a, li p {
+	background: #f3f3f3;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+	max-width: 170px;
+}
+/*Hover state for dropdown links*/
+nav li:hover, ul a:hover {
+	background: whitesmoke;
+	color: #a32638;
+}
+/*Hide dropdown links until they are needed*/
+nav li ul {
+	display: none;
+}
+/*Make dropdown links vertical*/
+nav li ul li {
+	display: block;
+	float: none;
+	min-width: 60px;
+	padding: 0 15px;
+	background: whitesmoke;
+	color: #2f3036;
+	height: 40px;
+	line-height: 40px;
+}
+
+/*Prevent text wrapping*/
+nav li ul li a {
+	width: auto;
+	min-width: 60px;
+	padding: 0 15px;
+}
+/*Display the dropdown on hover*/
+nav ul li a:hover + .hidden, .hidden:hover {
+	display: block!important;
+}
+/*Style 'show menu' label button and hide it by default*/
+.show-menu {
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+	color: #fff;
+	background: #a32638;
+	text-align: left;
+	display: none;
+	font-size: .9em;
+	text-align: center;
+}
+
+#width {
+	width: 12em;
+}
+nav ul#menu {
+	margin-left: 19%;
+}
+/*Hide checkbox*/
+input[type=checkbox] {
+	display: none;
+	-webkit-appearance: none;
+}
+/*Show menu when invisible checkbox is checked*/
+input[type=checkbox]:checked ~ #menu {
+	display: block;
+}
+nav {
+	width: 100%;
+	background-color: #a32638;
+	height: 50px;
+	position: relative;
+}
+header {
+	width: 100%;
+	height: 15px;
+	background-color: #900;
+}
+.borderradius {
+	border-radius: 5px;
+}
+.smallfont {
+	font-size: 10px;
+	color: white;
+}
+.pull-right {
+	float: right;
+}
+#myreynolds {
+	height: 200px;
+	background: whitesmoke;
+	max-width: 200px;
+}
+.form-group {
+	max-height: 70px;
+}
+.form-control {
+	height: 17px;
+}
+
+	#logo {
+	position: absolute;
+	width: 200px;
+	height: 120%;
+	z-index: 1;
+	background-color: none;
+}
+    #searchbox {
+	position: absolute;
+	width: 250px;
+	height: 60px;
+	z-index: 2;
+	background-color: none;
+	left: 84%;
+}
+
+ @media screen and (max-width : 900px) {
+nav li a {
+	font-size: .7em;
+	padding: 0px 10px;
+}
+#searchbox {
+	display: none;
+}
+nav li ul li a {
+	min-width: auto;
+	padding: 0px 10px;
+}
+nav {
+	height: auto;
+	width: 100%;
+	padding: none;
+	margin: none;
+}
+nav ul#menu {
+	margin-left: 0%;
+}
+nav #logo {
+	display: none;
+}
+header {
+	display: none;
+}
+ }
+ @media screen and (max-width : 600px) {
+/*Make dropdown links appear inline*/
+nav ul {
+	position: static;
+	display: none;
+	width: 100%;
+}
+nav ul li a {
+	font-size: 12px;
+	padding: none;
+}
+/*Create vertical spacing*/
+li {
+	margin-bottom: 1px;
+}
+/*Make all menu links full width*/
+nav ul li, li a {
+}
+/*Display 'show menu' link*/
+nav .show-menu {
+	display: inline-block;
+}
+#logo {
+	display: none;
+}
+nav ul#menu {
+	margin-left: 0%;
+}
+nav div#searchbox, #searchbox form {
+	display: none;
+}
+#myreynolds {
+	display: none;
+}
+#searchbox form {
+	display: none;
+}
+#menu {
+	width: 100%;
+}
+#menu li {
+	width: 100%;
+	display: inline-block;
+}
+nav ul li a {
+	max-width: 100%;
+}
+ }
+
+    </style>
+    </head>
+    <body>
+<nav>
+      <div id="logo"><img src="images/jsr-logo2.png" width="225" height="76" alt="logo"></div>
+      <label for="show-menu" class="show-menu"><img src="images/mobilelogo.png" width="100%" height="auto" alt="mobilelogo"> <br>
+    <span class="pull-right">Click Here for Menu</span></label>
+      <input type="checkbox" id="show-menu" role="button">
+      <ul id="menu">
+    <li><a href="#">Library Home</a></li>
+    <li> <a href="#" >My Reynolds</a>
+          <ul class="hidden" div id="myreynolds">
+        <li>
+              <form role="form" class="dropdown-menu myreynolds" method="POST" name="auth" action="https://jsr.my.vccs.edu/login" onsubmit="return validate();"  >
+            <div class="form-group">
+                  <label for="myjsr_id">Username</label>
+                  <input type="text" class="form-control borderradius" id="myjsr_id" name="vccsid" tabindex="1" placeholder="MyReynolds  username">
+                </div>
+            <!--closes login dropdown-->
+            <div class="form-group">
+                  <label for="myjsr_password">Password</label>
+                  <input type="password" class="form-control borderradius" name="password_temp" id="myjsr_password" tabindex="2" placeholder="My Reynolds password">
+                </div>
+            <!--closes form group-->
+            <input type="hidden" name="password" />
+            <input type="hidden" name="myvccsurl" value='' />
+            <input type="hidden" name="requesturl" value='http://jsr.my.vccs.edu/jsp/login.jsp' />
+            <button type="submit" class="btn btn-default">Login</button>
+          </form>
+            </li>
+      </ul>
+        </li>
+    <li> <a href="#">Research</a>
+          <ul class="hidden">
+        <li><a href="#">A to Z Databases</a></li>
+        <li><a href="#">Databases By Title </a></li>
+        <li><a href="#">Databases by Format</a></li>
+        <li><a href="#">Books and DVDs Only</a></li>
+        <li><a href="#">Search Journals</a></li>
+      </ul>
+        </li>
+    <li><a href="#">Guides</a>
+          <ul class="hidden">
+        <li><a href="#">Subject Guides</a></li>
+        <li><a href="#">Class Guides </a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">MLA/APA</a></li>
+      </ul>
+        </li>
+    <li><a href="#">Quick Links</a>
+          <ul class="hidden">
+        <li><a href="#">Quick Search</a></li>
+        <li><a href="#">Database Portal </a></li>
+        <li><a href="#">Academic Search Complete</a></li>
+        <li><a href="#">Opposing Viewpoints</a></li>
+        <li><a href="#">JSTOR</a></li>
+      </ul>
+        </li>
+    <li><a href="#">Services</a>
+        
+    </li>
+  </ul>
+      <div id="searchbox">
+    <form class="borderradius" 
+                    form method="get" action="http://www.google.com/search">
+          <input type="radio"  name="sitesearch" value="libguides.reynolds.edu"/ >
+          <span class="smallfont">Research Guides</span>
+          <input type="radio"  name="sitesearch" value="library.reynolds.edu" checked />
+          <span class="smallfont">Library Website</span> <br />
+          <input type="text"   name="q" size="20" maxlength="255" placeholder="Search library or guides" value="" / class="borderradius">
+          <input type="submit" class="borderradius" value="Go">
+        </form>
+  </div>
+    </nav>
+<header></header>
+</body>
+    <script type="text/javascript">
+<!--dropped down nav code on click-->
+    jQuery(document).ready(function ($) {
+        $('#tabs').tab();
+    });
+</script>
+
+    <!--My Reynolds login-->
+    <script type="text/javascript"><!--login code for MyReynolds-->
+function validate() {
+document.auth.password.value = document.auth.password_temp.value;
+document.auth.password_temp.value = "";
+return true;
+}
+</script>
+</html>

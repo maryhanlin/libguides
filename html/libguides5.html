@@ -1,0 +1,217 @@
+<!DOCTYPE html><head>
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+
+
+<style>
+
+
+.navbar-inverse {
+	background-color: #A32638; position:relative; border-color:#a32638;
+}
+.navbar-nav {margin-left:17%; font-family: 'Open Sans', sans-serif;}
+/**/
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	background-color: whitesmoke; font-size:1em; 
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	background-color: #A32638;
+}
+.dropdown-menu {
+	background-color: #FFFFFF;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-color: #F0E4E1;
+}
+.navbar-inverse {
+	background-image: none;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	background-image: none;
+}
+.navbar-inverse {
+	border-color: #900;
+}
+.navbar-inverse .navbar-brand {
+	color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand:hover {
+	color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #A32638;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+	color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus {
+	color: #A32638;
+}
+.dropdown-menu>li>a {
+	color: #333333;
+}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+	color: #141414;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+	border-top-color: #FFFFFF;
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+	border-top-color: #A32638;
+}
+.navbar-inverse .navbar-nav>.dropdown>a .caret {
+	border-bottom-color: #FFFFFF
+}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
+	border-bottom-color: #A32638;
+}
+.header2 {height:17px; width:100; background:#900;}
+
+
+
+#logo {
+	position: absolute;
+	width: 254px;
+	height: 115px;
+	z-index: 1;
+
+}
+#searchbox {
+	position: absolute;
+	width: 250px;
+	height: 80px;
+	z-index: 2;
+	left:80%;
+	
+}
+
+.borderradius {
+	border-radius: 5px;
+}
+.smallfont {
+	font-size: 10px;
+	color: white;
+}
+.pull-right {
+	float: right;
+}
+
+ @media screen and (max-width : 800px) {
+	
+#searchbox {display:none;}
+
+ }
+ 
+  @media screen and (max-width : 600px) {
+.navbar-nav {margin-left:0px;}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {color:white;}
+	
+
+  }
+ 
+	 
+
+</style>
+</head>
+<body>
+<header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
+  <div id="searchbox"><form class="borderradius" 
+                    form method="get" action="http://www.google.com/search">
+          <input type="radio"  name="sitesearch" value="libguides.reynolds.edu"/ >
+          <span class="smallfont">Research Guides</span>
+          <input type="radio"  name="sitesearch" value="library.reynolds.edu" checked />
+          <span class="smallfont">Library Website</span> <br />
+          <input type="text"   name="q" size="20" maxlength="255" placeholder="Search library or guides" value="" / class="borderradius">
+          <input type="submit" class="borderradius" value="Go">
+        </form></div>
+  <div id="logo"><img src="images/jsr-logo2.png" width="254" height="85" alt="logo"></div><!--ap div for the logo-->
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+       </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav">
+        <li> <a href="#">Library Home</a> </li>
+        
+        
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">My Reynolds <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        
+        
+             
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Research <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        
+        
+             
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Guides<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        
+        
+             
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Links<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        
+        
+             
+        <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li><a href="#">Separated link</a></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+        
+        
+       
+       
+       
+       
+      </ul><!--end the nav ul-->
+      
+    </nav>
+   
+  </div>
+  <div class="header2"></div>
+  </header>
+  
+  
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</html>

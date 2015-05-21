@@ -1,0 +1,123 @@
+<body class="s-lib-public-body">  <style>.panel-default {border:1px solid lightgray!important; border-radius:3px;} .featuredguides {background:#a32638; color:white; width:100%; padding: 0 10%; border-radius: 5px;   div.badge pull-right{background-color:green!important;}  </style>
+<div class="databasewrapper">
+<!-- BEGIN: Page Header --> 
+{{public_header}} 
+<!-- END: Page Header --> 
+<!-- BEGIN: Content Header -->
+
+<!-- END: Content Header --> 
+<!-- BEGIN: Nav Bar -->
+<div id="s-lib-public-nav" class="container s-lib-side-borders"> {{page_nav}} </div>
+<!-- END: Nav Bar --> 
+<!-- BEGIN: content -->
+<div id="containerholder" class="s-lib-main container s-lib-side-borders">
+  <div  id="s-lg-index-cols"  class="row"  div id="containerholder">
+    <div  id="col1"  class="col-md-8 center"> <div  class="s-lib-header container s-lib-side-borers">
+  <h2 id="reynoldsresearchguides" class="col-md-8 center" > Reynolds Research Guides </h2> 
+</div>
+  <div id="s-lg-index-list" > 
+
+    
+        <div id="contentlist"> {{content}} </div>
+      </div>
+    </div>
+    <div  id="col2"  class="col-md-4 center">
+
+      <div class="clearfix">
+        <div id="s-lg-box-collapse-2519219" >
+          <div class="s-lib-box-content">
+            <div id="s-lg-content-4575764" class="  clearfix">
+
+<h3 class="featuredguides" >Research Guides FAQ</h3>
+
+
+<p ><a class="collapsed button button-block button-rounded button-primary button-large" data-parent="#accordion" data-toggle="collapse" href="#whatare" >What are research guides?</a></p>
+<!-- EXPANDED CONTENT HERE -->
+<div class="out collapse" id="whatare">
+<p>Research guides are created by Reynolds librarians. They consist of books, databases and even web sites that have been evaluated by a Reynolds librarian. Research guides are a good starting point for your research. <p>
+
+
+</div>
+
+<p ><a class="collapsed button button-block button-rounded button-primary button-large" data-parent="#accordion" data-toggle="collapse" href="#when" >When Should I Use Them?</a></p>
+<!-- EXPANDED CONTENT HERE -->
+<div class="out collapse" id="when">
+<p>Use Research Guides as a starting point for your ideas or if your instructor has advised you to use them. Class Guides are tailored to a specific class or project.  Definitely use class guides if your instructor recommends one.<p>
+
+
+</div>
+
+<p ><a class="collapsed button button-block button-rounded button-primary button-large" data-parent="#accordion" data-toggle="collapse" href="#shouldnt"  style="font-size:18px;">When Shouldn't I Use Them?</a></p>
+<!-- EXPANDED CONTENT HERE -->
+<div class="out collapse" id="shouldnt">
+<p>Research guides are intended to get you started, but they are often too general in scope and they cannot do your research for you.  So, don't just use the books that we suggest or the links that we provide.  Dig deeper. Research is a process, like shopping for shoes. You may know what you want, but you still have to try the shoes, walk around in them, and then try on other pairs. </p>
+
+
+</div>
+
+<p ><a class="collapsed button button-block button-rounded button-primary button-large" data-parent="#accordion" data-toggle="collapse" href="#help" >Can I Get Help?</a></p>
+<!-- EXPANDED CONTENT HERE -->
+<div class="out collapse" id="help">
+<p>Yes! If you need immediate help, use our <a href="http://library.reynolds.edu/services/ask.htm">24 Hour 7 Day a Week Chat Service</a>. If you need more time, sign up for a <a href="http://library.reynolds.edu/services/researchconsultation.html">Research Consultation</a>. A librarian can spend up to an hour working with you on your assignment. Librarians are also available by phone or <a href="mailto:library@reynolds.edu; mhanlin@reynolds.edu">email</a>.<p>
+
+
+</div>
+
+          
+<h3 class="featuredguides button-primary"   >Popular Links</h3>
+	
+<a href="http://reynolds.beta.libguides.com/courseguides" class="button-royal button-block button-rounded button-large">Class Guides</a>
+<a href="http://libguides.reynolds.edu/research" class="button button-block button-rounded button-royal button-large">Research@Reynolds</a>
+<a href="http://libguides.reynolds.edu/cdl001" class="button button-block button-rounded button-royal button-large">CDL-001</a>
+<a href="http://reynolds.beta.libguides.com/howdoi" class="button button-block button-rounded button-royal button-large">How Do I?</a>
+<a href="http://libguides.reynolds.edu/mla" class="button button-block button-rounded button-royal button-large">MLA Format</a>
+<a href="http://libguides.reynolds.edu/apa" class="button button-block button-rounded button-royal button-large">APA Format</a>
+<a href="http://library.vccs.edu/license-bin/linker.plx?xsreasy" class="button button-block button-rounded button-royal button-large">EasyBib</a>
+
+
+
+
+        
+   
+
+
+
+            </div>
+
+<!-- CLICKABLE TEXT OR IMG HERE -->
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- END: content --> 
+<!-- BEGIN: Page Footer --> 
+
+{{public_footer}}
+<div id="s-lib-footer-public" class="s-lib-footer footer  s-lib-side-borders margintop">
+  <div id="s-lib-footer-rights">All Reynolds Library Content is <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><br /><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.</div>
+  <div id="s-lib-footer-login-link"> <a href="{{login_url}} 
+">Login </a></div>
+  <div id="s-lib-footer-support-link"> </div>
+</div>
+</div>
+
+<!-- END: Page Footer -->
+<div id="s-lib-alert" title="">
+<div id="s-lib-alert-content"></div>
+<div id="s-lib-popover-title" class="hide"> <span class="text-info"><strong>title</strong></span>
+  <button type="button" id="popclose" class="close" onclick="jQuery('.s-lib-popover').popover('hide')">&times;</button>
+</div>
+<div id="s-lib-popover-content" class="hide"><i class="fa fa-refresh fa-spin"></i> Loading...
+  <button class="btn btn-default btn-sm popclose" type="button">Close</button>
+</div>
+<div id="s-lib-scroll-top" title="Back to Top"> <span class="fa-stack fa-lg"> <i class="fa fa-square-o fa-stack-2x"></i> <i class="fa fa-angle-double-up fa-stack-1x" style="position:relative; bottom:2px;"></i> </span> </div>
+<!-- BEGIN: Custom Footer --> 
+
+<!-- END: Custom Footer -->
+</div>
+</body>

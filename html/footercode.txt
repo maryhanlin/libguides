@@ -1,0 +1,64 @@
+<div class="footer">
+
+  <div class="row-fluid">
+
+    <div class="span3"><p>
+ <strong>Goochland Library</strong></P>
+      <p>Room 200 Building C20 <br> 1851 Dickinson Road<br>
+        Goochland, VA  23063<br>
+        Phone: 804-523-5419
+      <p>Regular Hours: <br>
+        Monday - Thursday: 8:30 am - 7:30 pm<br>
+        Friday: 8:30 am - 4:30 pm <br>
+        Saturday & Sunday: Closed<br>
+        <img src="http://library.reynolds.edu/images/directions.png" alt="directions" width="17" height="25"> <a href="https://www.google.com/maps/place/1851+Dickinson+Rd/@37.698247,-77.882713,14z/data=!4m2!3m1!1s0x89b15fd3305d31a7:0x2a5a49e18877e39b?hl=en-US">Directions </a></p>
+    </div>
+
+
+    <div class="span3"><br>
+      <p><strong>Downtown Library</strong></p>
+      <p>Room 230 
+        700 E. Jackson Street<br>
+        Richmond, VA 23219<br>
+        Phone: 804-523-5211</p>
+      <p>Regular Hours: <br>
+        Monday - Thursday: 7:45 am - 9:00 pm<br>
+        Friday: 7:45 am - 5:00 pm <br>
+        Saturday: 8 am - 12:00 pm<br>
+        Sunday: Closed <br>
+        <a href="https://www.google.com/maps/place/700+E+Jackson+St/@37.5456374,-77.4314062,17z/data=!3m1!4b1!4m2!3m1!1s0x89b11125b54eadb1:0x4ac2864c8e30a73c?hl=en-US"><img src="http://library.reynolds.edu/images/directions.png" alt="directions" width="17" height="25"> Directions</a></p>
+    </div>
+
+
+    <div class="span3">
+      <p><strong>Parham Road Library</strong></p>
+      <p>Room 103, Massey LTC<br>
+        1651 East Parham Road <br>
+        Richmond, VA 23228
+        Phone: 804-523-5220<br>
+      <p> Regular Hours: <br>
+        Monday - Thursday: 7:45 am - 9:00 pm<br>
+        Friday: 7:45 am - 5:00 pm <br>
+        Saturday: 12 pm - 4:00 pm<br>
+        Sunday: Closed<br>
+        <img src="http://library.reynolds.edu/images/directions.png" alt="directions" width="17" height="25"> <a href="https://www.google.com/maps/place/1651+E+Parham+Rd/@37.6370432,-77.4735501,17z/data=!3m1!4b1!4m2!3m1!1s0x89b115e37dd3525b:0x5c0831489eb40f4?hl=en-US">Directions</a></p>
+    </div>
+
+
+    <div class="span3">
+      <p>
+      <p><img src="http://library.reynolds.edu/images/icons_mainpage.jpg" alt="facebook twitter blog" width="164" height="47" usemap="#Map">
+        <map name="Map">
+          <area shape="rect" coords="0,0,48,47" href="https://www.facebook.com/JSRlibrary" alt="facebook" data-toggle="tooltip" title="Facebook">
+          <area shape="rect" coords="58,1,110,45" href="https://twitter.com/JSRCCLibrary" alt="twitter" data-toggle="tooltip" title="Twitter">
+          <area shape="rect" coords="116,3,163,50" href="http://jsrcclibrary.wordpress.com/" alt="wordpress" data-toggle="tooltip" title="Library Blog">
+        </map>
+      </p>
+      <p>Questions or Comments:<br>
+        <a href="mailto:library@reynolds.edu">library@reynolds.edu</a>
+      <p> </p>
+      <p> 
+    </div>
+
+  </div>
+</div>
